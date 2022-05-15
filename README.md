@@ -1,23 +1,21 @@
 # Automatic-Plant-Watering-System
 An automatic plant watering system created using Arduino.
 
+**Connections:**
 
-Connections:
+Pin # for **soil moisture** sensor
 
+Pin # for **water level** sensor
 
-Pin # for soil moisture sensor
+Pin # for **light** sensor
 
-Pin # for water level sensor
+Pin # for **temperature** sensor
 
-Pin # for light sensor
+Pin # for **relay/motor**
 
-Pin # for temperature sensor
+Pin # for **bluetooth** module
 
-Pin # for relay/motor
-
-Pin # for bluetooth module
-
-Pins #### for LCD
+Pins #### for **LCD**
 
 Code:
 
