@@ -3,30 +3,25 @@ An automatic plant watering system created using Arduino.
 
 **Connections:**
 
-Pin # for **soil moisture** sensor
+Pin A2 for **soil moisture** sensor
 
-Pin # for **water level** sensor
+Pin A1 for **water level** sensor
 
-Pin # for **light** sensor
+Pin A3 for **light** sensor
 
-Pin # for **temperature** sensor
+Pin A0 for **temperature** sensor
 
-Pin # for **relay/motor**
+Pin 8 for **relay/pump**
 
-Pin # for **bluetooth** module
+Pin <anything left> for **bluetooth** module
 
-Pins #### for **LCD**
+Pins 2,3,4,5,11,12 for **LCD**
 
 Code:
 
+We check the light, soil moisture, tank water level to determine the next step.
 
-We check the light,soil moisture to determine if the plant needs to be watered.
-
-If it should be then we check if the tank has enough water.
-
-If the tank has enough then we water it.
-
-Else we display a message on the LCD to tell us that the tank need to be refilled.
+We display the corresponding message on the LCD.
 
 We can check the status of the plant on the phone by the bluetooth connection (using the standard blueetooth app for arduino).
 
