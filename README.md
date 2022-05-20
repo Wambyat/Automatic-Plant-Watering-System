@@ -1,7 +1,7 @@
 # Automatic-Plant-Watering-System
 An automatic plant watering system created using Arduino.
 
-**Connections:**
+**Connections:** (Check Connections_Pic for a visual guide)
 
 Pin A2 for **soil moisture** sensor
 
@@ -26,3 +26,5 @@ We display the corresponding message on the LCD.
 We can check the status of the plant on the phone by the bluetooth connection (using the standard blueetooth app for arduino).
 
 The temperature and light sensors are used to determine if the plant should be moved or if the climate is unsuitable for the plant.
+
+If you face any dificuities in any of the above steps visit lastminuteengineers.com
